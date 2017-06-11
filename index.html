@@ -99,11 +99,19 @@
 			          </div>
 				<div data-id="eyersho" class="elementor-element elementor-element-eyersho elementor-widget elementor-widget-heading" data-element_type="heading.default">
 				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default">6/16 - 6/18限時下殺</p>		</div>
+			<!-- <p class="elementor-heading-title elementor-size-default">6/16 - 6/18 72小時限時下殺</p>		</div> -->
+      <p class="elementor-heading-title elementor-size-default">
+        <div id="clockdiv">限時最後
+          <span class="days"></span><span>天</span>
+          <span class="hours"></span><span>時</span>
+          <span class="minutes"></span><span>分</span>
+          <span class="seconds"></span><span>秒</span>
+        </div>
+      </p>
 				</div>
 				<div data-id="kfdtrxt" class="elementor-element elementor-element-kfdtrxt elementor-widget elementor-widget-heading" data-element_type="heading.default">
 				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default">最低每片 $170</p></div>
+			    <p class="elementor-heading-title elementor-size-default">最低每片 <span style="color: red">$170</span></p></div>
 				</div>
 				<div data-id="aekgduu" class="elementor-element elementor-element-aekgduu elementor-widget elementor-widget-spacer" data-element_type="spacer.default">
 				<div class="elementor-widget-container">
@@ -117,7 +125,7 @@
 					<div class="elementor-button-wrapper">
 			<a href="#details" class="elementor-button-link elementor-button elementor-size-xl">
 				<span class="elementor-button-content-wrapper">
-										<span class="elementor-button-text">Get this deal ↓</span>
+										<span class="elementor-button-text">立即購買 ↓</span>
 				</span>
 			</a>
 		</div>
@@ -531,6 +539,7 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/analogwp.com\/ether\/wp-a
 var elementorFrontendConfig = {"isEditMode":"","stretchedSectionContainer":"","is_rtl":"","urls":{"assets":"https:\/\/analogwp.com\/ether\/wp-content\/plugins\/elementor\/assets\/"}};
 /* ]]> */
 </script>
+<script src="js/remain_time.js"></script>
 <script type='text/javascript' src='https://analogwp.com/ether/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=1.4.8'></script>
 	</body>
 </html>
