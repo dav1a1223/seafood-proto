@@ -222,44 +222,56 @@
 			                                                  <div class="order-list">
                                                           <h4 style="color: #f04646; border-bottom: 1px solid #f04646; text-align: left;">商品購買</h4><hr>
                                                           <div class="select-quantity" style="text-align: left">
-                                                            <span>選擇數量：</span>
-                                                            <div style="text-align: right; display: inline;">
-                                                              <select class="select-quantity-dropdown" name="dropdown">
-                                                                <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                                <option value="5">5</option>
-                                                                <option value="6">6</option>
-                                                                <option value="7">7</option>
-                                                                <option value="8">8</option>
-                                                                <option value="9">9</option>
-                                                                <option value="10">10</option>
-                                                              </select>
-                                                            </div>
+                                                            <table>
+                                                              <tr>
+                                                                <td>選擇數量：</td>
+                                                                <td><select class="select-quantity-dropdown" name="dropdown">
+                                                                  <option value="1">1</option>
+                                                                  <option value="2">2</option>
+                                                                  <option value="3">3</option>
+                                                                  <option value="4">4</option>
+                                                                  <option value="5">5</option>
+                                                                  <option value="6">6</option>
+                                                                  <option value="7">7</option>
+                                                                  <option value="8">8</option>
+                                                                  <option value="9">9</option>
+                                                                  <option value="10">10</option>
+                                                                </select></td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td>選擇付款方式：</td>
+                                                                <td><select class="select-payment-dropdown" name="dropdown" style="text-align: right">
+                                                                  <option value="信用卡付款">信用卡付款</option>
+                                                                  <option value="ATM轉帳">ATM轉帳</option>
+                                                                  <option value="貨到付款">貨到付款</option>
+                                                                </select></td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td>選擇運送方式：</td>
+                                                                <td><select class="select-logistic-dropdown" name="dropdown">
+                                                                  <option value="宅配">宅配</option>
+                                                                  <option value="超商取貨">超商取貨</option>
+                                                                </select></td>
+                                                              </tr>
+                                                            </table>
+                                                          </div>
 
-                                                          </div>
-                                                          <div class="select-payment" style="text-align: left">
-                                                            <span>選擇付款方式：</span>
-                                                            <select class="select-payment-dropdown" name="dropdown" style="text-align: right">
-                                                              <option value="信用卡付款">信用卡付款</option>
-                                                              <option value="ATM轉帳">ATM轉帳</option>
-                                                              <option value="貨到付款">貨到付款</option>
-                                                            </select>
-                                                          </div>
                                                           <div class="select-logistic" style="text-align: left">
-                                                            <span>選擇運送方式：</span>
-                                                            <select class="select-logistic-dropdown" name="dropdown">
-                                                              <option value="宅配">宅配</option>
-                                                              <option value="超商取貨">超商取貨</option>
-                                                            </select>
                                                             <h4>收件人資料</h4>
-                                                            <span>姓名</span>
-                                                            <input type="text" placeholder="賴老師"><br>
-                                                            <span>手機</span>
-                                                            <input type="text" placeholder="0912345678"><br>
-                                                            <span>收件地址</span>
-                                                            <input type="text" placeholder="台北市大安區">
+                                                            <table>
+                                                              <tr>
+                                                                <td>姓名</td>
+                                                                <td><input type="text" placeholder="賴老師"></td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td>手機</td>
+                                                                <td><input type="text" placeholder="0912345678"></td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td>收件地址</td>
+                                                                <td><input type="text" placeholder="台北市大安區"></td>
+                                                              </tr>
+                                                            </table>
                                                           </div><br>
                                                           <a href="complete.html"><button type="button" name="button">確認購買</button></a>
 			                                                  </div>
