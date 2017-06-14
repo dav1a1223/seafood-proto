@@ -32,7 +32,7 @@ function initializeClock(id, endtime) {
     var t = getTimeRemaining(endtime);
     var today = new Date()
 
-    daysSpan.innerHTML = 13 - today.getDate();
+    daysSpan.innerHTML = 17 - today.getDate();
     hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
