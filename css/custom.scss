@@ -5,5 +5,13 @@
 }
 
 #someone-buy {
-  display: none;
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  color: black;
+  background-color: white;
+  border: 2px solid yellow;
+  z-index: 1;
 }
