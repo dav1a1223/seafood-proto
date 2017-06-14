@@ -51,7 +51,10 @@
     </style>
   </head>
 	<body class="home page-template page-template-elementor_canvas page page-id-35 elementor-default elementor-page elementor-page-35">
-			<div class="elementor elementor-35">
+      <div id="someone-buy">
+        台北陳小姐已購買
+      </div>
+      <div class="elementor elementor-35">
 			<div class="elementor-inner">
 				<div class="elementor-section-wrap">
 					<section data-id="wmvaxtw" class="elementor-element elementor-element-wmvaxtw elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section-content-middle elementor-section elementor-top-section" data-element_type="section">
@@ -76,7 +79,7 @@
 					    <div class="elementor-widget-wrap">
 				        <div data-id="facfkwt" class="elementor-element elementor-element-facfkwt elementor-widget elementor-widget-heading" data-element_type="heading.default">
 				          <div class="elementor-widget-container">
-			              <h1 class="elementor-heading-title elementor-size-default">特選純淨國王鮭</h1>
+			              <h1 class="elementor-heading-title elementor-size-default" onclick="someoneBuy()">特選純淨國王鮭</h1>
                   </div>
 				        </div>
 				        <div data-id="gbckbak" class="elementor-element elementor-element-gbckbak elementor-widget elementor-widget-divider" data-element_type="divider.default">
@@ -420,6 +423,11 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/analogwp.com\/ether\/wp-a
 /* <![CDATA[ */
 var elementorFrontendConfig = {"isEditMode":"","stretchedSectionContainer":"","is_rtl":"","urls":{"assets":"https:\/\/analogwp.com\/ether\/wp-content\/plugins\/elementor\/assets\/"}};
 /* ]]> */
+</script>
+<script type="text/javascript">
+function someoneBuy() {
+  document.getElementById("someone-buy").style.display = "block";
+}
 </script>
 <script src="js/remain_time.js"></script>
 <script type='text/javascript' src='https://analogwp.com/ether/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=1.4.8'></script>
